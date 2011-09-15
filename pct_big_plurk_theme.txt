@@ -1,4 +1,4 @@
-/* pct big plurk theme http://www.plurk.com/installDesign/3127252-2bb92999d7 */
+/* pct big plurk theme http://www.plurk.com/installDesign/3127252-aa481560fd */
 
 /* Design by Howar31  http://about.me/howar31 */
 /* 喜歡本佈景的噗友歡迎使用並自行做小修改以符合個人需求，但希望能保留原作者Howar31的署名，感謝:D */
