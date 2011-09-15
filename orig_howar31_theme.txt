@@ -1,5 +1,3 @@
-/* pct big plurk theme http://www.plurk.com/installDesign/3127252-2bb92999d7 */
-
 /* Design by Howar31  http://about.me/howar31 */
 /* 喜歡本佈景的噗友歡迎使用並自行做小修改以符合個人需求，但希望能保留原作者Howar31的署名，感謝:D */
 /* Welcome to use and modify this CSS theme.  Please do not remove the name of designer, Howar31.  Thanks. :D */
@@ -45,8 +43,10 @@ body {
 /* 河道主框架，可以換成自己的背景 */
 #timeline_holder {
     /* 圖檔位置 */
-    background-image:url('https://github.com/pct/foo/raw/master/plurk_bsd.jpg'); 
-    background-position:0px top;
+    background-image:   none;
+    background-color:   #EEEEEE;
+    /* 漸層背景只有webkit支援 */
+    background:         -webkit-gradient(linear, 50% 60%, 50% 100%, from(#EEEEEE), to(#AAAAAA));
     -moz-box-shadow:    0px 0px 20px rgba(0, 0, 0, 0.9);
     -webkit-box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.9);
     box-shadow:         0px 0px 20px rgba(0, 0, 0, 0.9);
@@ -287,11 +287,11 @@ body {
     -webkit-border-radius:  5px;
     border-radius:          5px;
     -webkit-transition: max-height 1.0s ease-out 0.1s,
-    max-width 1.0s ease-out 0.1s;
+                        max-width 1.0s ease-out 0.1s;
     -moz-transition:    max-height 1.0s ease-out 0.2s,
-    max-width 1.0s ease-out 0.1s;
+                        max-width 1.0s ease-out 0.1s;
     -o-transition:      max-height 1.0s ease-out 0.1s,
-    max-width 1.0s ease-out 0.1s;
+                        max-width 1.0s ease-out 0.1s;
     -moz-box-shadow:    0px 1px 5px 2px rgba(0, 0, 0, 0.8);
     -webkit-box-shadow: 0px 1px 5px 2px rgba(0, 0, 0, 0.8);
     box-shadow:         0px 1px 5px 2px rgba(0, 0, 0, 0.8);
@@ -529,7 +529,7 @@ textarea#input_big, #more_options .auto_ta, #more_options select, .clipboard {
 .friend_man.remove,
 .friend_man.pending,
 .friend_man.block
-{
+ {
     background: none        !important;
     border:     none        !important;
     position:   relative    !important;
@@ -767,8 +767,3 @@ body,
 /* Welcome to use and modify this CSS theme.  Please do not remove the name of designer, Howar31.  Thanks. :D */
 /* 喜歡本佈景的噗友歡迎使用並自行做小修改以符合個人需求，但希望能保留原作者Howar31的署名，感謝:D */
 /* Design by Howar31  http://about.me/howar31 */
-
-/* pct added */
-#share_link {margin:5px;}
-#about_me {padding:5px;}
-
